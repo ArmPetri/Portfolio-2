@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./images/Logo.svg" type="image/x-icon">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://armandspetrikas.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Armands Petrikas">
+  <meta property="og:description" content="Personal Website">
+  <meta property="og:image" content="https://armandspetrikas.com/front_for_meta.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="armandspetrikas.com">
+  <meta property="twitter:url" content="https://armandspetrikas.com/">
+  <meta name="twitter:title" content="Armands Petrikas">
+  <meta name="twitter:description" content="Personal Website">
+  <meta name="twitter:image" content="https://armandspetrikas.com/front_for_meta.png">
+
+  <title>Armands Petrikas</title>
+</head>
+<body>
+  <!-- Header  -->
+  <Header id="header">
+    <div class="container">
+      <nav>
+        <ul id="links" class="links">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skillset">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="mobile_menu_button" class="mobile_menu_button"><img src="./icons/mobile_menu.svg" alt="mobile_menu" class="mobile_menu_icon"></button>
+    </div>
+  </Header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero container">
+    <div class="left_hero">
+      <h1>Hello, <br> my name is Armands</h1>
+      <h2>I am a Front End Developer</h2>
+      <a href="#work" class="btn_animation"><h4>See My Work</h4><img src="./icons/here.svg" alt="here"></a>
+    </div>
+    <div class="right_hero">
+      <!-- <img src="./images/Large_Logo.svg" alt="" class="large_logo"> -->
+      <div class="card">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <h4 class="card_data">Armands Petrikas</h4>
+        <h5 class="card_subtitle card_data">Front End Developer</h5>
+        <div class="card_line card_data"></div>
+        <h5 class="profiles card_data"><img src="./icons/email.svg" alt="email">armandspetrikas@gmail.com</h5>
+        <h5 class="profiles card_data"><img src="./icons/github.svg" alt="github">https://github.com/ArmPetri</h5>
+        <h5 class="profiles card_data"><img src="./icons/linkedin.svg" alt="linkedin">https://www.linkedin.com/in/armandspetrikas</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work  -->
+  <section id="work" class="work container">
+    <h2>Projects</h2>
+
+    <!-- 1st Work  -->
+    <div class="work_row">
+      <div class="image_wrapper">
+        <img src="./images/coincase.png" alt="" class="work_image">
+        <div class="img_overlay"></div>
+      </div>
+      <div class="work_wrapper">
+        <div class="work_info">
+          <h3>Coincase</h3>
+          <!-- <div class="work_overlay"></div> -->
+          <!-- <p class="work_tag">Crypto Portfolio Tracker</p> -->
+          <p class="work_description">Crypto Portfolio tracker inspired by coingecko.com and using it’s API</p>
+          <div class="work_technologies">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>React Js</p>
+            <p>Styled Components</p>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="work_link_wrapper">
+            <a href="https://github.com/ArmPetri/Coin-Case" target="_blank" class="work_link"><h4>See Code</h4><img src="./icons/here.svg" alt="here"></a>
+            <a href="https://coin-case.netlify.app/" target="_blank" class="work_link"><h4>Live Site</h4><img src="./icons/here.svg" alt="here"></a>
+          </div>
+          <div class="sizes">
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2nd Work  -->
+    <div class="work_row">
+      <div class="image_wrapper">
+        <img src="./images/rhythm_composer.png" alt="" class="work_image">
+        <div class="img_overlay"></div>
+      </div>
+      <div class="work_wrapper">
+        <h4>Rhythm Composer</h4>
+        <div class="work_info">
+          <div class="work_overlay"></div>
+          <p class="work_tag">Drum Machine, Rhythm Composer, Step Sequencer</p>
+          <p class="work_description">80’s Roland 808 Rhythm Composer inspired Web based version</p>
+        </div>
+        <div class="work_link_wrapper">
+          <a href="https://github.com/ArmPetri/Rhythm-Composer" target="_blank" class="work_link"><h4>See Code</h4><img src="./icons/here.svg" alt="here"></a>
+          <a href="https://rhythm-composer.netlify.app/" target="_blank" class="work_link"><h4>Live Site</h4><img src="./icons/here.svg" alt="here"></a>
+        </div>
+      </div>
+      <div class="work_technologies">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+        <p>Web Audio API</p>
+      </div>
+    </div>
+
+    <!-- 3rd Work  -->
+    <div class="work_row">
+      <div class="image_wrapper">
+        <img src="./images/abols_gusteknis.png" alt="" class="work_image">
+        <div class="img_overlay"></div>
+      </div>
+      <div class="work_wrapper">
+        <h4>Client Work</h4>
+        <div class="work_info">
+          <div class="work_overlay"></div>
+          <p class="work_tag">Website For a local bussiness</p>
+          <p class="work_description">A brochure website for a local bussiness</p>
+        </div>
+        <div class="work_link_wrapper">
+          <a href="https://abolsgusteknis.lv/" target="_blank" class="work_link"><h4>Live Site</h4><img src="./icons/here.svg" alt="here"></a>
+        </div>
+      </div>
+      <div class="work_technologies">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Bootstrap</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skillset  -->
+  <section id="skillset" class="skillset container">
+    <h2>Skill Set</h2>
+    <div class="skillset_wrapper">
+      <div class="left_skillset">
+        <p>My main focus is on Front End Technologies - HTML, CSS, Javascript, React Js and version control with  Git and Github.</p>
+        <br>
+        <p>I am also currently exploring Web3 - particularly Ethereum smart contracts in Solidity combined with standard Web technologies</p>
+      </div>
+      <div class="right_skillset">
+        <div class="skillset_icons">
+          <img src="./icons/html.svg" alt="">
+          <img src="./icons/javascript.svg" alt="">
+          <img src="./icons/github_2.svg" alt="">
+        </div>
+        <div class="skillset_icons">
+          <img src="./icons/css.svg" alt="">
+          <img src="./icons/react.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About  -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>I am a Front End Developer from Latvia. Having lived 10 years abroad and working in the hospitality industry, I feel most comfortable working in an international and multicultural environment with a diverse group of people. <br>
+      I enjoy challenging myself so learning web development has been a great experience and has given me plenty of concepts that inspire curiosity. <br>
+      Creating something from scratch or solving a problem and hitting one of those "lightbulb" moments, are some of the most rewarding experiences for me.
+      </p>
+  </section>
+
+  <!-- Contact  -->
+  <section id="contact" class="contact container">
+    <h2>Contact Me</h2>
+    <div class="contact_wrapper">
+      <div class="left_contact">
+        <form id="contactform" action="https://formspree.io/f/xyyoywgl" method="POST" class="contactform" autocomplete="off">
+          <label for="name">Name *</label>
+          <input name="name" type="text" id="name" autocomplete="off" required>
+          <label for="email">Email *</label>
+          <input name="_replyto" type="email" id="email" required>
+          <label for="comment">Message *</label>
+          <textarea name="message" id="comment" class="textarea" required></textarea>
+          <button id="submit" type="submit" name="Send">
+            <h4>Send Message</h4>
+          </button>
+        </form>
+
+      </div>
+      <div class="right_contact">
+        <h5 class="profiles"><img src="./icons/email.svg" alt="email">armandspetrikas@gmail.com</h5>
+        <h5 class="profiles"><img src="./icons/github.svg" alt="github">https://github.com/ArmPetri</h5>
+        <h5 class="profiles"><img src="./icons/linkedin.svg" alt="linkedin">https://www.linkedin.com/in/armandspetrikas</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+  <footer>
+    <p>Designed & Built by Armands Petrikas</p>
+    <p><script type="text/javascript">let year = new Date();document.write(year.getFullYear());</script> Armands Petrikas</p>
+  </footer>
+  <button id="scrollUpButton" class="scroll_up"><img class="scroll_arrow" src="./icons/up.svg" alt="here"></button>
+  <script src="./app.js"></script>
+</body>
+</html>
