@@ -1,0 +1,38 @@
+[
+  {
+    "id" : "coincase",
+    "title" : "Coincase",
+    "image" : "coincase.png",
+    "subtitle" : "Crypto Portfolio Tracker",
+    "description" : {"s" : "Crypto Portfolio tracker inspired by coingecko.com and using it’s API", "m" : "Crypto Portfolio tracker inspired by coingecko.com and using it’s API.  After learning React Js, I decided to make my own project and I thought it would be really interesting to challange myself and re-create some of Coingecko pages, features and functionality", "l" : "Crypto Portfolio tracker inspired by coingecko.com and using it’s API.  After learning React Js decided to make my own project and I thought it would be really interesting to challenge myself and re-create some of Coingecko pages, features and functionality.  It was fun trying to figure out how the site was set up. Figuring out calculations behind portfolio section was probably the most challenging part but improved my problem solving approach and of course how to implement React"},
+    "technologies" : ["HTML", "CSS", "React Js", "Styled Components"],
+    "links" : ["https://github.com/ArmPetri/Coin-Case", "https://coin-case.netlify.app/"]
+  },
+  {
+    "id" : "sparkleheart",
+    "title" : "Sparkle Heart",
+    "image" : "sparkleheart.png",
+    "subtitle" : "Sparkle Heart Project",
+    "description" : {"s" : "Multi-page Frontend Website created from a design and turned into a Wordpress theme as part of my Internship Project", "m" : "During my internship at piere.lv project my first task was to first create a pixel-perfect front end part of the website from a provided design and second part was to use that website and turn it into a unique wordpress theme", "l" : "During my internship at piere.lv project my first task was to first create a pixel-perfect front end part of the website from a provided design and second part was to use that website and turn it into a unique wordpress theme.  During the development I also had to collaborate with others who were doing internship in testing as well as project management.  Overall had a great experience and learned a lot about the process, most common website features and also Wordpress theme development to which I was completely new coming in"},
+    "technologies" : ["HTML", "CSS", "Javascript", "Sass", "Wordpress"],
+    "links" : ["https://github.com/ArmPetri/Task_2_Armands_Petrikas", "https://armandsp.demolive.space/"]
+  },
+  {
+    "id" : "drumbell",
+    "title" : "Drumbell CR-07",
+    "image" : "rhythm_composer.png",
+    "subtitle" : "Rhythm Composer",
+    "description" : {"s" : "A Web based Drum Machine inspired by 80’s Roland 808 Rhythm Composer", "m" : "After getting familiar with core web technologies I wanted to test myself. As a fan of analog synths and sound engineering I found Web Audio API and came up with a idea of creating a web based drum machine.  I had a lot of fun creating this project as I was improving my development skills, making something from the ground up and something related to my other interests", "l" : "After getting familiar with core web technologies I wanted to test myself. As a fan of analog synths and sound engineering I found Web Audio API and came up with a idea of creating a web based drum machine.  I had a lot of fun creating this project as I was improving my development skills, making something from the ground up and something related to my other interests.  This was my first biggest challenge, some functionality took me a long time but I am happy I stuck to it because once I was done with the project I knew I wanted to be a developer"},
+    "technologies" : ["HTML", "CSS", "Javascript", "Web Audio API"],
+    "links" : ["https://github.com/ArmPetri/Rhythm-Composer", "https://rhythm-composer.netlify.app/"]
+  },
+  {
+    "id" : "apple-trapping",
+    "title" : "Apple Trapping",
+    "image" : "abols_gusteknis.png",
+    "subtitle" : "An event site for a local brewery",
+    "description" : {"s" : "A Brochure Website I did for a client for a local brewery", "m" : "I was approached to create a brochure site for a local brewery.  Client already had an existing site and design built on one of the page builders but since it is just informational page they wanted it simple just with basic web technologies", "l" : "I was apporached to create a brochure site for a local brewery.  They already had an existing site and design built on one of the page builders but since it is just informational page they wanted it simple just with basic web technologies.  By the suggestion for styling I used Bootstrap, which was my first experience with it but I realised that I will need to learn how to adapt depending on the project at hand"},
+    "technologies" : ["HTML", "CSS", "Bootstrap"],
+    "links" : [ "",  "https://abolsgusteknis.lv/"]
+  }
+]

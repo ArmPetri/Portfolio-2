@@ -76,11 +76,17 @@
   </div>
 </section>
 
+<!-- Projects  -->
 <section class="container px-5 mx-auto">
   <h3 class="text-[36px] font-bold">Some Things I’ve Built</h3>
   <div class="container px-5 py-24 mx-auto">
-
- 
+    <div v-for="(project, i) in projects" :key="i">
+      <div class="w-full flex justify-center items-center">
+        <h3 class="text-[30px] bold w-1/6">Project {{ i + 1 }}</h3>
+        <div class="border-b-2 border-b-black w-5/6"></div>
+      </div>
+        <Project :project="project"/>
+    </div>
   </div>
 </section>
 
@@ -88,5 +94,13 @@
 
 
 <script setup lang="ts">
+  // const { data:projects } = await useAsyncData('projects', () => queryContent('projects').find())
+  // const res = projects.value
 
+  // console.log(res)
+
+  import projects from '../assets/data/projects.json'
+
+  console.log(projects[0])
+  
 </script>
