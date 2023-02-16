@@ -1,5 +1,5 @@
 <template>
- <header class="text-gray-600 body-font">
+ <header class="text-gray-600 body-font bg-[#FFFCDE]">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center mb-4 md:mb-0 h-[60px]">
       <svg width="82" height="50" viewBox="0 0 82 50" fill="none" xmlns="http://www.w3.org/2000/svg">
